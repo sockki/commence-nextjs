@@ -1,21 +1,19 @@
-"use client"
+"use client";
 
 import whiteArrow from "@/assets/icons/white-arrow.svg";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { cls } from "@/libs/util";
 import { StaticImageData } from "next/image";
 import Image from "next/image";
-
 
 interface PerformanceBoxProps {
   month: string;
   show: string;
   contents: string;
-  photo:StaticImageData;
+  photo: StaticImageData;
 }
 
-
-function PerformanceBox({ month, show, contents,photo}: PerformanceBoxProps) {
+function PerformanceBox({ month, show, contents, photo }: PerformanceBoxProps) {
   const [toggle, setToggle] = useState(false);
   const onClick = () => {
     setToggle((prev) => !prev);
@@ -41,11 +39,13 @@ function PerformanceBox({ month, show, contents,photo}: PerformanceBoxProps) {
           </div>
         ) : (
           <div className="w-[52.72%] h-full flex flex-col justify-center items-center">
-            <img
-              className="rounded-[1.2rem] w-full h-[10rem] overflow-hidden text-center bg-center bg-cover mr-[1.327rem]"
-              src={photo.src}
-              alt="performanceImg"
-            />
+              <Image
+                width={1000}
+                height={1000}
+                className="rounded-[1.2rem] w-full h-[10rem] overflow-hidden text-center bg-center bg-cover mr-[1.327rem]"
+                src={photo.src}
+                alt="performanceImg"
+              />
           </div>
         )}
       </div>

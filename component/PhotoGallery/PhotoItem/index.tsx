@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Image from "next/image";
 
 interface ContentMainProps {
   children: React.ReactNode;
@@ -74,7 +75,9 @@ function PhotoItem({ imageKey, src, alt, content,children }: ContentMainProps) {
       className={` ${marginVariants[imageKey]} relative w-[238px] h-[169px]`}
     >
       {children}
-      <img
+      <Image
+        width={1000}
+        height={100}
         src={src}
         alt={alt}
         className={`${rotateVariants[imageKey]} w-full h-full bg-[#D9D9D9] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] `}
