@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Image from "next/image";
+import CommenceMark from "@/app/apple-icon.png"
 
 interface ContentMainProps {
   children: React.ReactNode;
@@ -80,6 +81,7 @@ function PhotoItem({ imageKey, src, alt, content,children }: ContentMainProps) {
         height={100}
         src={src}
         alt={alt}
+        blurDataURL={CommenceMark.src}
         className={`${rotateVariants[imageKey]} w-full h-full bg-[#D9D9D9] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] `}
       />
       <p
