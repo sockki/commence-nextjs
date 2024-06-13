@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 목차
+1. [서비스 소개](#서비스-소개)
+2. [개발 화면](#개발-화면)
+3. [기술 스택](#기술-스택)
+4. [실행 방법](#실행-방법)
+5. [제작자 소개](#제작자-소개)
 
-## Getting Started
 
-First, run the development server:
+## 서비스 소개
+<strong>COMMENCE - 인하대 No.1 밴드 동아리 꼬망스에서 24학번 신입부원을 기다립니다.</strong>                   
+                    
+인하대학교 중앙 밴드 동아리 꼬망스의 24학번 신입생 모집 및 지원 페이지 입니다.                  
+꼬망스에 대한 정보와 공연 영상과 함께, 오디션 안내 및 지원까지 할 수 있는 웹 서비스 입니다.
+                         
 
-```bash
+[🔗 배포된 웹 서비스 바로가기 Click !](https://apply-commence-2024.vercel.app/) 👈
+## 개발 화면
+  <img width="300" alt="image" src="https://github.com/choiseona/commence-project-frontend/assets/52223965/21433c22-577f-4614-8971-fb4981607d4e">
+  <img width="300" alt="image" src="https://github.com/choiseona/commence-project-frontend/assets/52223965/9aeceba9-c58b-4db2-adda-c970e104133f">
+  <img width="300" alt="image" src="https://github.com/choiseona/commence-project-frontend/assets/52223965/17be1804-edd6-4229-b0dd-d2a607c2a2eb">
+  <img width="300" alt="image" src="https://github.com/choiseona/commence-project-frontend/assets/52223965/94af39a0-57a9-45fe-8bd2-a3a5abae4703">
+  <img width="300" alt="image" src="https://github.com/choiseona/commence-project-frontend/assets/52223965/c62e7832-20f2-4658-8d8b-26adfdc71bc0">
+  <img width="300" alt="image" src="https://github.com/choiseona/commence-project-frontend/assets/52223965/ddbc71f4-2701-4a53-86b6-7e064b5195b0">
+
+
+## 기술 스택
+|역할|종류|
+|-|-|
+|Framework|<img alt="RED" src ="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/> 
+|Language|<img src="https://img.shields.io/badge/typescript -3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+|Styling|<img src="https://img.shields.io/badge/tailwind css-06B6D4?style=for-the-badge&logo=tailwind css&logoColor=white">|
+|Formatting|![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=white)|
+|Package Manager|<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">|                                         
+|Version Control|![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) |
+|CI/CD|![Vercel](https://img.shields.io/badge/vercel-2088FF?style=for-the-badge&logo={githubactions}&logoColor={white}) 
+
+## 실행 방법
+node version: v20.14.0
+```
+git clone https://github.com/sockki/commence-nextjs.git
+npm
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 제작자 소개
+<table align="center">
+<tbody>
+<tr>
+<td align="center"><a href="https://github.com/sockki"><img src="https://avatars.githubusercontent.com/sockki" width="100px;" alt=""/></td>
+<td align="center"><a href="https://github.com/choiseona"><img src="https://avatars.githubusercontent.com/choiseona" width="100px;" alt=""/></td>
+<td align="center"><img src="https://github.com/choiseona/commence-project-frontend/assets/52223965/babb9f73-4664-482e-90d3-98bc8f582556" width="100px" alt="image"  >
+</td>
+<tr/>
+<tr>
+<td align="center"><a href="https://github.com/sockki"><b>김민준</b></a></td>
+<td align="center"><a href="https://github.com/choiseona"><b>최선아</b></a></td>
+<td align="center"><b>임서연</b></a></td>
+</tr>
+<tr>
+<td align="center"><b>FE</b></a></td>
+<td align="center"><b>FE</b></a></td>
+<td align="center"><b>DESIGNER</b></a></td>
+</tr>
+</tbody>
+</table>
