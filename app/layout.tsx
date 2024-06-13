@@ -10,6 +10,23 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "COMMENCE - 인하대 No.1 밴드 동아리 꼬망스에서 24학번 신입부원을 기다립니다.",
   description: "꼬망스 2024년도 지원 페이지 입니다.",
+  keywords : ["COMMENCE", "꼬망스"],
+  openGraph: {
+    type: "website",
+    locale: "ko_KR",
+    url: "https://www.naver.com/",
+    title: "COMMENCE - 인하대 No.1 밴드 동아리 꼬망스에서 24학번 신입부원을 기다립니다.",
+    siteName: "COMMENCE - 인하대 No.1 밴드 동아리 꼬망스에서 24학번 신입부원을 기다립니다.",
+    images: [
+      {
+        url: "favicon.ico",
+        width: 285,
+        height: 167,
+        alt: "COMMENCE - 인하대 No.1 밴드 동아리 꼬망스에서 24학번 신입부원을 기다립니다.",
+      },
+    ],
+  },
+  
 };
 
 export default function RootLayout({
