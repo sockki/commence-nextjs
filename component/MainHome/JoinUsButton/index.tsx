@@ -9,7 +9,7 @@ function JoinUsButton() {
   const router = useRouter();
 
   const onClick = () => {
-    router.push("/how-to-join");
+    router.push("/HowToJoin");
   };
   
   return (
